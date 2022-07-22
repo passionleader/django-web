@@ -2,4 +2,17 @@
 
 <h1> 대왕 큰 글자 </h1>
 
+<h5>무언가를 추가함<h5>
   
+const date = new Date();
+
+const hours = date.getHours();
+const minutes = date.getMinutes();
+const seconds = date.getSeconds();
+const milliseconds = date.getMilliseconds();
+
+console.log('time: ' + date.toLocaleTimeString('ko-kr'));
+console.log('hours: ' + hours);
+console.log('minutes: ' + minutes);
+console.log('seconds: ' + seconds);
+console.log('milliseconds: ' + milliseconds);
